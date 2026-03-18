@@ -387,6 +387,7 @@ body {
         max-width: 600px; /* Constraints width for comfortable reading */
         background-color: var(--bg-base);
         box-shadow: 0 0 40px rgba(0,0,0,0.5);
+        position: relative;
     }
     
     .details {
@@ -394,3 +395,248 @@ body {
         gap: 1.5rem;
     }
 }
+
+/* -------------------------------------
+ * WEEKLY VIEW & FAB
+ * ------------------------------------- */
+
+.floating-action-btn {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background-color: var(--brand-color);
+    color: white;
+    border: none;
+    border-radius: 28px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+    cursor: pointer;
+    z-index: 100;
+    transition: transform 0.2s, background-color 0.2s;
+    font-family: 'Inter', sans-serif;
+}
+.floating-action-btn:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+}
+
+.weekly-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    background-color: rgba(0, 0, 0, 0.6); /* backdrop */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.weekly-modal.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.weekly-modal-content {
+    background-color: #ffffff;
+    color: #1e293b; /* Dark text for light theme */
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    max-height: 90vh;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.weekly-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    background-color: #f8fafc;
+}
+
+.weekly-header h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: -0.025em;
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+    color: #64748b;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s, color 0.2s;
+}
+.close-btn:hover {
+    background-color: #e2e8f0;
+    color: #0f172a;
+}
+
+.weekly-grid-container {
+    padding: 1rem;
+    overflow: auto;
+    flex-grow: 1;
+    background-color: #f1f5f9; /* sleek light background for the grid area */
+}
+
+/* Custom Scrollbar for the table */
+.weekly-grid-container::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.weekly-grid-container::-webkit-scrollbar-track {
+    background: #f1f5f9; 
+}
+.weekly-grid-container::-webkit-scrollbar-thumb {
+    background: #cbd5e1; 
+    border-radius: 4px;
+}
+.weekly-grid-container::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8; 
+}
+
+.weekly-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    min-width: 900px; /* Force minimum width to show all columns clearly */
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.weekly-table th, .weekly-table td {
+    border-right: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 12px;
+    vertical-align: top;
+    text-align: left;
+    width: 16.666%; /* 1 col for time, 5 config days = 6 cols */
+}
+
+.weekly-table th:last-child, .weekly-table td:last-child {
+    border-right: none;
+}
+
+.weekly-table th {
+    background-color: #f8fafc;
+    font-weight: 700;
+    color: #334155;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 2px solid #cbd5e1;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+}
+
+.weekly-table .time-cell {
+    font-weight: 600;
+    color: #475569;
+    background-color: #f8fafc;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.weekly-lesson {
+    background-color: #e0f2fe;
+    border-left: 4px solid #3b82f6;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    transition: transform 0.1s;
+}
+
+.weekly-lesson:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.weekly-lesson:last-child {
+    margin-bottom: 0;
+}
+
+.wl-subject {
+    font-weight: 800;
+    color: #0c4a6e;
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+    line-height: 1.2;
+}
+
+.wl-detail {
+    font-size: 0.8rem;
+    color: #0369a1;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.wl-detail .material-icons-round {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.wl-empty {
+    color: #cbd5e1;
+    text-align: center;
+    font-size: 0.85rem;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+/* Weekly View Subject Modifiers (Light Theme Adaptations) */
+.wl-sub-math { background-color: rgba(139, 92, 246, 0.12); border-left-color: #8b5cf6; }
+.wl-sub-math .wl-subject { color: #6d28d9; }
+.wl-sub-math .wl-detail { color: #5b21b6; }
+
+.wl-sub-lang { background-color: rgba(59, 130, 246, 0.12); border-left-color: #3b82f6; }
+.wl-sub-lang .wl-subject { color: #1d4ed8; }
+.wl-sub-lang .wl-detail { color: #1e40af; }
+
+.wl-sub-science { background-color: rgba(16, 185, 129, 0.12); border-left-color: #10b981; }
+.wl-sub-science .wl-subject { color: #047857; }
+.wl-sub-science .wl-detail { color: #065f46; }
+
+.wl-sub-art { background-color: rgba(236, 72, 153, 0.12); border-left-color: #ec4899; }
+.wl-sub-art .wl-subject { color: #be185d; }
+.wl-sub-art .wl-detail { color: #9d174d; }
+
+.wl-sub-sport { background-color: rgba(245, 158, 11, 0.12); border-left-color: #f59e0b; }
+.wl-sub-sport .wl-subject { color: #b45309; }
+.wl-sub-sport .wl-detail { color: #92400e; }
+
+.wl-sub-eng { background-color: rgba(14, 165, 233, 0.12); border-left-color: #0ea5e9; }
+.wl-sub-eng .wl-subject { color: #0369a1; }
+.wl-sub-eng .wl-detail { color: #075985; }

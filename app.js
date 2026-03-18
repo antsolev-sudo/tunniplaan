@@ -37,6 +37,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const lessonList = document.getElementById('lesson-list');
     const currentDayTitle = document.getElementById('current-day-title');
 
+    // Weekly View bindings
+    const weeklyBtn = document.getElementById('weekly-view-btn');
+    const weeklyModal = document.getElementById('weekly-view-modal');
+    const closeWeeklyBtn = document.getElementById('close-weekly-btn');
+    const weeklyTypeSelect = document.getElementById('weekly-type-select');
+    const weeklyEntitySelect = document.getElementById('weekly-entity-select');
+    const weeklyGridContainer = document.getElementById('weekly-grid-container');
+
     // 1. Check Data Availability
     if (typeof window.TIMETABLE_DATA === 'undefined') {
         showError("Andmebaasi ei leitud! Palun käivita andmete uuendamise skript `import_untis.py`.");
@@ -117,6 +125,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. Initialize Selectors
     function populateEntitySelect(type) {
         entitySelect.innerHTML = '';
+        if (weeklyEntitySelect) weeklyEntitySelect.innerHTML = '';
+        
         let list = [];
         if (type === 'class') list = classesList;
         else if (type === 'teacher') list = teachersList;
@@ -126,6 +136,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const opt = document.createElement('option');
             opt.textContent = "Andmed puuduvad";
             entitySelect.appendChild(opt);
+            
+            if (weeklyEntitySelect) {
+                const opt2 = document.createElement('option');
+                opt2.textContent = "Andmed puuduvad";
+                weeklyEntitySelect.appendChild(opt2);
+            }
             return;
         }
 
@@ -133,24 +149,49 @@ document.addEventListener('DOMContentLoaded', () => {
             const opt = document.createElement('option');
             opt.value = opt.textContent = item;
             entitySelect.appendChild(opt);
+            
+            if (weeklyEntitySelect) {
+                const opt2 = document.createElement('option');
+                opt2.value = opt2.textContent = item;
+                weeklyEntitySelect.appendChild(opt2);
+            }
         });
         
         currentEntity = list[0];
         entitySelect.value = currentEntity;
+        if (weeklyEntitySelect) weeklyEntitySelect.value = currentEntity;
     }
 
     populateEntitySelect('class');
 
-    typeSelect.addEventListener('change', (e) => {
+    function updateType(e) {
         currentType = e.target.value;
+        typeSelect.value = currentType;
+        if (weeklyTypeSelect) weeklyTypeSelect.value = currentType;
+        
         populateEntitySelect(currentType);
         renderTimeline();
-    });
+        if (weeklyModal && weeklyModal.classList.contains('show')) {
+            renderWeeklyView();
+        }
+    }
 
-    entitySelect.addEventListener('change', (e) => {
+    function updateEntity(e) {
         currentEntity = e.target.value;
+        entitySelect.value = currentEntity;
+        if (weeklyEntitySelect) weeklyEntitySelect.value = currentEntity;
+        
         renderTimeline();
-    });
+        if (weeklyModal && weeklyModal.classList.contains('show')) {
+            renderWeeklyView();
+        }
+    }
+
+    typeSelect.addEventListener('change', updateType);
+    entitySelect.addEventListener('change', updateEntity);
+    
+    if (weeklyTypeSelect) weeklyTypeSelect.addEventListener('change', updateType);
+    if (weeklyEntitySelect) weeklyEntitySelect.addEventListener('change', updateEntity);
 
     // 4. Initialize Day Tabs
     dayTabs.forEach(tab => {
@@ -167,6 +208,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const initialActiveTab = document.querySelector(`.tab[data-day="${activeDayIndex}"]`);
     if (initialActiveTab) {
         initialActiveTab.classList.add('active');
+    }
+
+    // 4.5 Initialize Weekly View Events
+    if (weeklyBtn) {
+        weeklyBtn.addEventListener('click', () => {
+            renderWeeklyView();
+            weeklyModal.classList.add('show');
+            document.body.style.overflow = 'hidden'; // prevent bg scroll
+        });
+    }
+
+    if (closeWeeklyBtn) {
+        closeWeeklyBtn.addEventListener('click', () => {
+            weeklyModal.classList.remove('show');
+            document.body.style.overflow = '';
+        });
+    }
+
+    if (weeklyModal) {
+        weeklyModal.addEventListener('click', (e) => {
+            if (e.target === weeklyModal) {
+                weeklyModal.classList.remove('show');
+                document.body.style.overflow = '';
+            }
+        });
     }
 
     // 5. Render Logic
@@ -277,6 +343,103 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         }
+    }
+
+    // 6. Render Weekly View Logic
+    function renderWeeklyView() {
+        let db;
+        if (currentType === 'class') db = classDB;
+        else if (currentType === 'teacher') db = teacherDB;
+        else if (currentType === 'room') db = roomDB;
+        
+        const data = db[currentEntity];
+        if (!data) {
+            weeklyGridContainer.innerHTML = `<div style="padding: 2rem; text-align: center; color: red;">Andmeid ei leitud.</div>`;
+            return;
+        }
+
+        let tableHtml = `
+            <table class="weekly-table">
+                <thead>
+                    <tr>
+                        <th style="width: 10%;">Aeg</th>
+                        <th>Esmaspäev</th>
+                        <th>Teisipäev</th>
+                        <th>Kolmapäev</th>
+                        <th>Neljapäev</th>
+                        <th>Reede</th>
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+
+        // Check which slots have any lessons across the whole week to avoid showing unnecessary empty rows
+        const activeSlotsThisWeek = new Set();
+        for (let d = 0; d < 5; d++) {
+            const daySched = data.schedule[d] || {};
+            Object.keys(daySched).forEach(slotNum => activeSlotsThisWeek.add(parseInt(slotNum)));
+        }
+        const maxSlotThisWeek = activeSlotsThisWeek.size > 0 ? Math.max(...Array.from(activeSlotsThisWeek), 4) : 4;
+
+        for (let slotIndex = 0; slotIndex < schoolTimes.length; slotIndex++) {
+            const timeInfo = schoolTimes[slotIndex];
+            const slotId = timeInfo.id;
+            
+            // Skip rows after the max slot if they are completely empty
+            if (slotId > maxSlotThisWeek) continue;
+
+            tableHtml += `
+                <tr>
+                    <td class="time-cell">
+                        <div style="font-size: 1.1em;">${timeInfo.id}. tund</div>
+                        <div style="font-size: 0.85em; opacity: 0.8; margin-top: 4px;">${timeInfo.start} - ${timeInfo.end}</div>
+                    </td>
+            `;
+
+            for (let dayIdx = 0; dayIdx < 5; dayIdx++) {
+                const daySchedule = data.schedule[dayIdx] || {};
+                const groupsInSlot = daySchedule[slotId] || [];
+
+                tableHtml += `<td>`;
+                
+                if (groupsInSlot.length > 0) {
+                    groupsInSlot.forEach((grp, idx) => {
+                        let icon1 = '', text1 = '', icon2 = '', text2 = '';
+                        if (currentType === 'class') {
+                            icon1 = 'person'; text1 = grp.teacher;
+                            icon2 = 'room'; text2 = grp.room;
+                        } else if (currentType === 'teacher') {
+                            icon1 = 'group'; text1 = grp.class;
+                            icon2 = 'room'; text2 = grp.room;
+                        } else if (currentType === 'room') {
+                            icon1 = 'group'; text1 = grp.class;
+                            icon2 = 'person'; text2 = grp.teacher;
+                        }
+
+                        tableHtml += `
+                            <div class="weekly-lesson wl-sub-${grp.type}" style="${idx > 0 ? 'margin-top: 8px;' : ''}">
+                                <div class="wl-subject">${grp.subject}</div>
+                                ${text1 ? `<div class="wl-detail"><span class="material-icons-round">${icon1}</span>${text1}</div>` : ''}
+                                ${text2 ? `<div class="wl-detail"><span class="material-icons-round">${icon2}</span>${text2}</div>` : ''}
+                            </div>
+                        `;
+                    });
+                } else {
+                    tableHtml += `<div class="wl-empty">-</div>`;
+                }
+
+                tableHtml += `</td>`;
+            }
+
+            tableHtml += `</tr>`;
+        }
+
+        tableHtml += `
+                </tbody>
+            </table>
+        `;
+
+        weeklyGridContainer.innerHTML = tableHtml;
     }
 
     // Helper Functions

@@ -8723,9 +8723,9 @@ window.TIMETABLE_DATA = {
         ],
         "3": [
           {
-            "subject": "Tugitund",
-            "teacher": "Annela Floren",
-            "room": "230",
+            "subject": "Ajal.",
+            "teacher": "Merje Sirelpuu",
+            "room": "sots.",
             "type": "general"
           }
         ],
@@ -8802,9 +8802,9 @@ window.TIMETABLE_DATA = {
         ],
         "4": [
           {
-            "subject": "Ajal.",
-            "teacher": "Merje Sirelpuu",
-            "room": "sots.",
+            "subject": "Tugitund",
+            "teacher": "Annela Floren",
+            "room": "230",
             "type": "general"
           }
         ],
