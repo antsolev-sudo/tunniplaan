@@ -1,0 +1,396 @@
+/**
+ * MOBILE-FIRST CSS ARCHITECTURE
+ * 
+ * UX Decisions:
+ * 1. Deep Space Theme: High contrast dark mode (#0f172a / slate-900 base). Easier on the eyes, saves battery on OLED phones, offers excellent contrast for colored cards in sunlight.
+ * 2. Mobile-First Media Queries: Base styles are for mobile.
+ * 3. Typography: Uses 'Inter' which is highly legible on small screens. Large, bold subject names (Info Hierarchy).
+ * 4. Card Timeline: Completely eliminates the need for horizontal scrolling in the main view.
+ * 5. Horizontal Tabs: Smooth swiping between days instead of a dropdown menu, requiring fewer taps.
+ */
+
+ :root {
+    /* Color Palette - Slate Dark Mode */
+    --bg-base: #0f172a;
+    --bg-surface: #1e293b;
+    --bg-surface-elevated: #334155;
+    
+    /* Text */
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #64748b;
+    
+    /* Brand & Accents */
+    --brand-color: #3b82f6; /* Blue 500 */
+    --brand-color-dim: rgba(59, 130, 246, 0.15);
+    
+    /* Subject Colors - Vivid but accessible on dark background */
+    --color-math: #a78bfa; /* Violet 400 */
+    --bg-math: rgba(167, 139, 250, 0.1);
+    
+    --color-lang: #60a5fa; /* Blue 400 */
+    --bg-lang: rgba(96, 165, 250, 0.1);
+    
+    --color-science: #34d399; /* Emerald 400 */
+    --bg-science: rgba(52, 211, 153, 0.1);
+    
+    --color-art: #f472b6; /* Pink 400 */
+    --bg-art: rgba(244, 114, 182, 0.1);
+    
+    --color-sport: #fbbf24; /* Amber 400 */
+    --bg-sport: rgba(251, 191, 36, 0.1);
+    
+    --color-eng: #38bdf8; /* Sky 400 */
+    --bg-eng: rgba(56, 189, 248, 0.1);
+    
+    --color-empty: #475569; /* Slate 600 */
+    --bg-empty: rgba(71, 85, 105, 0.05);
+
+    /* Layout variables */
+    --header-height: 120px;
+    --safe-area-padding: env(safe-area-inset-bottom, 20px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-tap-highlight-color: transparent; /* Remove blue flash on mobile tap */
+}
+
+body {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    overflow-x: hidden; /* Strict no horizontal scroll */
+    min-height: 100vh;
+    font-size: 16px; /* Base size for mobile legibility */
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* -------------------------------------
+ * FIXED HEADER 
+ * ------------------------------------- */
+.app-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--bg-surface);
+    padding-top: env(safe-area-inset-top, 10px); /* For iOS notch */
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.brand .icon {
+    color: var(--brand-color);
+    font-size: 24px;
+}
+
+.brand h1 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+
+/* Styled Mobile Select */
+.class-selector-wrapper {
+    position: relative;
+}
+
+.class-selector-wrapper::after {
+    content: "expand_more";
+    font-family: 'Material Icons Round';
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--brand-color);
+    pointer-events: none;
+}
+
+.class-select {
+    appearance: none;
+    background-color: var(--brand-color-dim);
+    color: var(--brand-color);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    border-radius: 8px;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+
+.class-select:focus {
+    border-color: var(--brand-color);
+}
+
+/* -------------------------------------
+ * DAY TABS 
+ * ------------------------------------- */
+.day-tabs-container {
+    padding: 0 0.5rem 0.5rem;
+}
+
+.day-tabs {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    overflow-x: auto;
+    scrollbar-width: none; /* Auto-hide scrollbar Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+    padding: 0 0.75rem;
+}
+
+.day-tabs::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+}
+
+.tab {
+    flex: 1 0 auto; /* Allow tabs to size naturally but not shrink below content */
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+    position: relative;
+    user-select: none;
+}
+
+/* Active tab style */
+.tab.active {
+    color: var(--text-primary);
+    background-color: var(--bg-surface);
+}
+
+.tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 3px;
+    background-color: var(--brand-color);
+    border-radius: 3px 3px 0 0;
+}
+
+/* Truncate tabs on very small screens (show only E, T, K, N, R) */
+@media (max-width: 360px) {
+    .tab span { display: none; }
+    .tab { padding: 0.75rem; }
+}
+
+/* -------------------------------------
+ * MAIN TIMELINE CONTENT
+ * ------------------------------------- */
+.timeline-container {
+    flex-grow: 1;
+    padding: 1.25rem 1.25rem;
+    overflow-y: auto;
+}
+
+.day-summary {
+    margin-bottom: 1.5rem;
+}
+
+.day-summary h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+}
+
+.lesson-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* -------------------------------------
+ * LESSON CARDS
+ * ------------------------------------- */
+.lesson-card {
+    display: flex;
+    background-color: var(--bg-surface);
+    border-radius: 16px;
+    overflow: hidden;
+    /* Box shadow for depth without clutter */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    position: relative;
+}
+
+/* Thicker color accent bar on the left */
+.lesson-card::before {
+    content: '';
+    width: 6px;
+    flex-shrink: 0;
+    background-color: var(--color-empty); /* default */
+}
+
+.time-column {
+    padding: 1rem 0.5rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Right align the times toward the content */
+    justify-content: center;
+    min-width: 85px;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.time-primary {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1;
+}
+
+.time-secondary {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+    font-weight: 500;
+}
+
+.lesson-number {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--brand-color);
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+.info-column {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Typography Hierarchy inside card */
+.subject {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.details {
+    display: flex;
+    flex-direction: column; /* Stacked on mobile */
+    gap: 0.35rem;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.detail-item .material-icons-round {
+    font-size: 16px;
+    color: var(--text-muted);
+}
+
+/* Empty State / Free period */
+.lesson-card.is-empty {
+    background-color: transparent;
+    border: 2px dashed var(--bg-surface-elevated);
+    box-shadow: none;
+    align-items: center;
+}
+.lesson-card.is-empty::before { display: none; }
+.lesson-card.is-empty .time-column { border-right: none; }
+
+.free-period-text {
+    color: var(--text-muted);
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Subject Modifiers */
+.sub-math::before { background-color: var(--color-math); }
+.sub-math .subject { color: var(--color-math); }
+
+.sub-lang::before { background-color: var(--color-lang); }
+.sub-lang .subject { color: var(--color-lang); }
+
+.sub-science::before { background-color: var(--color-science); }
+.sub-science .subject { color: var(--color-science); }
+
+.sub-art::before { background-color: var(--color-art); }
+.sub-art .subject { color: var(--color-art); }
+
+.sub-sport::before { background-color: var(--color-sport); }
+.sub-sport .subject { color: var(--color-sport); }
+
+.sub-eng::before { background-color: var(--color-eng); }
+.sub-eng .subject { color: var(--color-eng); }
+
+/* Current time/day highlighting */
+.lesson-card.is-current {
+    box-shadow: 0 0 0 2px var(--brand-color);
+    background-color: rgba(59, 130, 246, 0.05); /* Slight blue tint */
+}
+.lesson-card.is-current .lesson-number {
+    color: var(--text-primary);
+    background-color: var(--brand-color);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.bottom-spacer {
+    height: var(--safe-area-padding);
+}
+
+/* -------------------------------------
+ * DESKTOP ADAPTATION (Tablet and up)
+ * ------------------------------------- */
+@media (min-width: 768px) {
+    body {
+        /* Restrict max width and center it on large screens making it feel like an app */
+        display: flex;
+        justify-content: center;
+        background-color: #020617; /* Even darker outer background */
+    }
+    
+    .app-wrapper {
+        width: 100%;
+        max-width: 600px; /* Constraints width for comfortable reading */
+        background-color: var(--bg-base);
+        box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    }
+    
+    .details {
+        flex-direction: row; /* Horizontal details on tablet */
+        gap: 1.5rem;
+    }
+}
