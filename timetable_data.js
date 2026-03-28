@@ -9008,7 +9008,7 @@ window.TIMETABLE_DATA = {
           {
             "subject": "Koht. klj/KiVa",
             "teacher": "Sigrid Tiikjärv",
-            "room": "303",
+            "room": "210",
             "type": "general"
           }
         ],
@@ -9016,7 +9016,7 @@ window.TIMETABLE_DATA = {
           {
             "subject": "Loovtöö",
             "teacher": "Sigrid Tiikjärv",
-            "room": "303",
+            "room": "210",
             "type": "general"
           }
         ],
@@ -10827,7 +10827,7 @@ window.TIMETABLE_DATA = {
           {
             "subject": "Matem.",
             "teacher": "Tiiu Ehasalu",
-            "room": "319",
+            "room": "202",
             "type": "math"
           }
         ],
@@ -12700,7 +12700,7 @@ window.TIMETABLE_DATA = {
           {
             "subject": "Ingl.k.",
             "teacher": "Argo Kongi",
-            "room": "",
+            "room": "319",
             "type": "general"
           }
         ],
