@@ -1,0 +1,7622 @@
+{
+  "1.a": {
+    "className": "1.a",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Rütmika",
+          "teacher": "Kristel Lehtme",
+          "room": "aula",
+          "type": "sport"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Hanna Tulp",
+          "room": "101",
+          "type": "math"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Hanna Tulp",
+          "room": "101",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Tööõp.",
+          "teacher": "Hanna Tulp",
+          "room": "101",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Hanna Tulp",
+          "room": "101",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Hanna Tulp",
+          "room": "101",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Hanna Tulp",
+          "room": "101",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Hanna Tulp",
+          "room": "101",
+          "type": "art"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Eesti k.",
+          "teacher": "Hanna Tulp",
+          "room": "101",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Hanna Tulp",
+          "room": "101",
+          "type": "lang"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "KiVa",
+        "end": "Hanna Tulp"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Hanna Tulp"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Hanna Tulp"
+      },
+      {
+        "start": "Kunst",
+        "end": "Hanna Tulp"
+      },
+      {
+        "start": "Õp. abistav t.",
+        "end": "Hanna Tulp"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "1.b": {
+    "className": "1.b",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kristine Noodla",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Kaire Pajanen",
+          "room": "104",
+          "type": "math"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Kaire Pajanen",
+          "room": "104",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kaire Pajanen",
+          "room": "104",
+          "type": "art"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kristine Noodla",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Rütmika",
+          "teacher": "Kristel Lehtme",
+          "room": "131",
+          "type": "sport"
+        },
+        null,
+        {
+          "subject": "Tööõp.",
+          "teacher": "Kaire Pajanen",
+          "room": "104",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "KiVa",
+        "end": "Kaire Pajanen"
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Selia Selezov"
+      },
+      {
+        "start": "Matem.",
+        "end": "Kaire Pajanen"
+      },
+      {
+        "start": "Rütmika",
+        "end": "Kristel Lehtme"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "1.c": {
+    "className": "1.c",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kaisa Vahula",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Mari-Liis Naan",
+          "room": "102",
+          "type": "art"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Mari-Liis Naan",
+          "room": "102",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Rütmika",
+          "teacher": "Kristel Lehtme",
+          "room": "222",
+          "type": "sport"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Rütmika",
+          "teacher": "Kristel Lehtme",
+          "room": "222",
+          "type": "sport"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Mari-Liis Naan",
+          "room": "102",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "KiVa",
+          "teacher": "Mari-Liis Naan",
+          "room": "102",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Õp. abistav t.",
+          "teacher": "Mari-Liis Naan",
+          "room": "102",
+          "type": "science"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Mari-Liis Naan"
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Selia Selezov"
+      },
+      {
+        "start": "Matem.",
+        "end": "Mari-Liis Naan"
+      },
+      {
+        "start": "Kunst",
+        "end": "Mari-Liis Naan"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "1.e": {
+    "className": "1.e",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Õpiabi",
+          "teacher": "Ave Oppo",
+          "room": "313",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Tööõp.",
+          "teacher": "Jane Sepajõe",
+          "room": "414",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Jane Sepajõe",
+          "room": "414",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Jane Sepajõe",
+          "room": "414",
+          "type": "math"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kristine Noodla",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Jane Sepajõe",
+          "room": "414",
+          "type": "art"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Jane Sepajõe",
+          "room": "414",
+          "type": "art"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Õp. abistav t.",
+          "teacher": "Jane Sepajõe",
+          "room": "414",
+          "type": "science"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "KiVa",
+        "end": "Jane Sepajõe"
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Selia Selezov"
+      },
+      {
+        "start": "Rütmika",
+        "end": "Kristel Lehtme"
+      },
+      {
+        "start": "Matem.",
+        "end": "Jane Sepajõe"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "1.t": {
+    "className": "1.t",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Marjorete Orumaa",
+          "room": "103",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Tööõp.",
+          "teacher": "Marjorete Orumaa",
+          "room": "103",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Marjorete Orumaa",
+          "room": "103",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Marjorete Orumaa",
+          "room": "103",
+          "type": "art"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Marjorete Orumaa",
+          "room": "103",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Marjorete Orumaa",
+          "room": "103",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Marjorete Orumaa",
+          "room": "103",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "KiVa",
+          "teacher": "Marjorete Orumaa",
+          "room": "103",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kaisa Vahula",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Rütmika",
+          "teacher": "Kristel Lehtme",
+          "room": "aula",
+          "type": "sport"
+        },
+        null,
+        {
+          "subject": "Õp. abistav t.",
+          "teacher": "Marjorete Orumaa",
+          "room": "103",
+          "type": "science"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Matem.",
+        "end": "Marjorete Orumaa"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Marjorete Orumaa"
+      },
+      {
+        "start": "Kunst",
+        "end": "Marjorete Orumaa"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Marjorete Orumaa"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "2.a": {
+    "className": "2.a",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Erika Bauer",
+          "room": "105",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Tööõp.",
+          "teacher": "Erika Bauer",
+          "room": "105",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Õpiabi",
+          "teacher": "Ave Oppo",
+          "room": "313",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Erika Bauer",
+          "room": "105",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Loodusõp/inim.",
+          "teacher": "Erika Bauer",
+          "room": "105",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Kristel Lehtme",
+          "room": "aula",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Erika Bauer",
+          "room": "105",
+          "type": "math"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Õp. abistav t.",
+          "teacher": "Erika Bauer",
+          "room": "105",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Erika Bauer",
+          "room": "105",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Sigrid Tiikjärv",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Tüdr.koor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Õpiabi",
+          "teacher": "Ave Oppo",
+          "room": "313",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Tööõp.",
+          "teacher": "Erika Bauer",
+          "room": "105",
+          "type": "science"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Tüdr.koor",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Erika Bauer"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Erika Bauer"
+      },
+      {
+        "start": "Matem.",
+        "end": "Erika Bauer"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Sigrid Tiikjärv"
+      },
+      {
+        "start": "Loodusõp/inim.",
+        "end": "Erika Bauer"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "2.b": {
+    "className": "2.b",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Margit Kaare",
+          "room": "107",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Tööõp.",
+          "teacher": "Margit Kaare",
+          "room": "107",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Õp. abistav t.",
+          "teacher": "Margit Kaare",
+          "room": "107",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Kristel Lehtme",
+          "room": "222",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Sigrid Tiikjärv",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Margit Kaare",
+          "room": "107",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Loodusõp/inim.",
+          "teacher": "Margit Kaare",
+          "room": "107",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Õpiabi",
+          "teacher": "Ave Oppo",
+          "room": "313",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Margit Kaare",
+          "room": "107",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Margit Kaare",
+          "room": "107",
+          "type": "math"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Tüdr.koor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Loodusõp/inim.",
+          "teacher": "Margit Kaare",
+          "room": "107",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Sigrid Tiikjärv",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Tüdr.koor",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Muus.",
+        "end": "Kristel Lehtme"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Margit Kaare"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Margit Kaare"
+      },
+      {
+        "start": "Loodusõp/inim.",
+        "end": "Margit Kaare"
+      },
+      {
+        "start": "Tööõp.",
+        "end": "Margit Kaare"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "2.c": {
+    "className": "2.c",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Lii Liiskmann",
+          "room": "106",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Helle Tuhkla",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Lii Liiskmann",
+          "room": "106",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Loodusõp/inim.",
+          "teacher": "Lii Liiskmann",
+          "room": "106",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Lii Liiskmann",
+          "room": "106",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Lii Liiskmann",
+          "room": "106",
+          "type": "art"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Õp. abistav t.",
+          "teacher": "Lii Liiskmann",
+          "room": "106",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Loodusõp/inim.",
+          "teacher": "Lii Liiskmann",
+          "room": "106",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Helle Tuhkla",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Tüdr.koor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Tööõp.",
+          "teacher": "Lii Liiskmann",
+          "room": "106",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Loodusõp/inim.",
+          "teacher": "Lii Liiskmann",
+          "room": "106",
+          "type": "science"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Tüdr.koor",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Lii Liiskmann"
+      },
+      {
+        "start": "Matem.",
+        "end": "Lii Liiskmann"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Helle Tuhkla"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Lii Liiskmann"
+      },
+      {
+        "start": "Muus.",
+        "end": "Kristel Lehtme"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "2.t": {
+    "className": "2.t",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Heili Aaremäe",
+          "room": "108",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Loodusõp/inim.",
+          "teacher": "Heili Aaremäe",
+          "room": "108",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Õp. abistav t.",
+          "teacher": "Heili Aaremäe",
+          "room": "108",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Heili Aaremäe",
+          "room": "108",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Arvutiõpetus",
+          "teacher": "Heili Aaremäe",
+          "room": "205",
+          "type": "math"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Heili Aaremäe",
+          "room": "108",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Loodusõp/inim.",
+          "teacher": "Heili Aaremäe",
+          "room": "108",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Heili Aaremäe",
+          "room": "108",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Kristel Lehtme",
+          "room": "aula",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Matem.",
+          "teacher": "Heili Aaremäe",
+          "room": "108",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kristine Noodla",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Tööõp.",
+          "teacher": "Heili Aaremäe",
+          "room": "108",
+          "type": "science"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Heili Aaremäe"
+      },
+      {
+        "start": "Muus.",
+        "end": "Kristel Lehtme"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Heili Aaremäe"
+      },
+      {
+        "start": "Loodusõp/inim.",
+        "end": "Heili Aaremäe"
+      },
+      {
+        "start": "Kunst",
+        "end": "Heili Aaremäe"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "3.a": {
+    "className": "3.a",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Ruth Kapper",
+          "room": "405",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Ruth Kapper",
+          "room": "405",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Liiklus",
+          "teacher": "Annela Floren",
+          "room": "405",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Õp. abistav t.",
+          "teacher": "Ruth Kapper",
+          "room": "405",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Ruth Kapper",
+          "room": "405",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Ruth Kapper",
+          "room": "405",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Elo Üleoja",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Helle Tuhkla",
+          "room": "AQVA2",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Ruth Kapper",
+          "room": "405",
+          "type": "math"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Ruth Kapper",
+          "room": "405",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Tööõp.",
+          "teacher": "Ruth Kapper",
+          "room": "405",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Õpiabi",
+          "teacher": "Ave Oppo",
+          "room": "313",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Ruth Kapper",
+          "room": "405",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Õpiabi",
+          "teacher": "Ave Oppo",
+          "room": "313",
+          "type": "science"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Tüdr.koor",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Matem.",
+        "end": "Ruth Kapper"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Helle Tuhkla"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Ruth Kapper"
+      },
+      {
+        "start": "Muus.",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Tiina Kärmik"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "3.b": {
+    "className": "3.b",
+    "schedule": {
+      "0": [
+        {
+          "subject": "Tüdr.koor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Liisi Klaos",
+          "room": "222",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Loodusõp/inim.",
+          "teacher": "Ruth Lehtla",
+          "room": "406",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tiina Kärmik",
+          "room": "321",
+          "type": "eng"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Elo Üleoja",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Ruth Lehtla",
+          "room": "406",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "AQVA2",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Kristina Holst",
+          "room": "319",
+          "type": "eng"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Tüdr.koor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tiina Kärmik",
+          "room": "321",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Õpiabi",
+        "end": "Ave Oppo"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Kristina Holst"
+      },
+      {
+        "start": "Matem.",
+        "end": "Ruth Lehtla"
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Selia Selezov"
+      },
+      {
+        "start": "Loodusõp/inim.",
+        "end": "Ruth Lehtla"
+      },
+      {
+        "start": "Kunst",
+        "end": "Ruth Lehtla"
+      },
+      {
+        "start": "Õp. abistav t.",
+        "end": "Ruth Lehtla"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "3.c": {
+    "className": "3.c",
+    "schedule": {
+      "0": [
+        {
+          "subject": "Tüdr.koor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Karmen Ottep",
+          "room": "407",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tuulikki Raudver",
+          "room": "316",
+          "type": "eng"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Karmen Ottep",
+          "room": "407",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Karmen Ottep",
+          "room": "407",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Õpiabi",
+          "teacher": "Ave Oppo",
+          "room": "313",
+          "type": "science"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Elo Üleoja",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kristine Noodla",
+          "room": "AQVA",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Karmen Ottep",
+          "room": "407",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Liiklus",
+          "teacher": "Annela Floren",
+          "room": "407",
+          "type": "empty"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Liisi Klaos",
+          "room": "222",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Õpiabi",
+          "teacher": "Ave Oppo",
+          "room": "313",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Tüdr.koor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Karmen Ottep",
+          "room": "407",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Karmen Ottep",
+          "room": "407",
+          "type": "art"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Õp. abistav t.",
+        "end": "Karmen Ottep"
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Karmen Ottep"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Karmen Ottep"
+      },
+      {
+        "start": "Muus.",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Tööõp.",
+        "end": "Karmen Ottep"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Tuulikki Raudver"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "3.e": {
+    "className": "3.e",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Kristel Floren-Pi",
+          "room": "400",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Tiina Kippel",
+          "room": "131",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Õp. abistav t.",
+          "teacher": "Kristel Floren-Pi",
+          "room": "400",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Kristina Holst",
+          "room": "307",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Kristel Floren-Pi",
+          "room": "400",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Liiklus",
+          "teacher": "Annela Floren",
+          "room": "400",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Kristina Holst",
+          "room": "323",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Helle Tuhkla",
+          "room": "AQVA",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Kristel Floren-Pi",
+          "room": "400",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Tiina Kippel",
+          "room": "131",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Folklooritund",
+          "teacher": "Kristel Floren-Pi",
+          "room": "400",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Kristel Floren-Pi",
+          "room": "400",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Kristel Floren-Pi",
+          "room": "400",
+          "type": "lang"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Kristel Floren-Pi"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Kristel Floren-Pi"
+      },
+      {
+        "start": "Matem.",
+        "end": "Kristel Floren-Pi"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Helle Tuhkla"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Kristina Holst"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "3.t": {
+    "className": "3.t",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Kristina Holst",
+          "room": "308",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Mairi Juuro-Gulin",
+          "room": "408",
+          "type": "math"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Õp. abistav t.",
+          "teacher": "Mairi Juuro-Gulin",
+          "room": "408",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Mairi Juuro-Gulin",
+          "room": "408",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Mairi Juuro-Gulin",
+          "room": "408",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Tiina Kippel",
+          "room": "131",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Helle Tuhkla",
+          "room": "AQVA",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Mairi Juuro-Gulin",
+          "room": "408",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Mairi Juuro-Gulin",
+          "room": "408",
+          "type": "art"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Õpiabi",
+          "teacher": "Ave Oppo",
+          "room": "313",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Mairi Juuro-Gulin",
+          "room": "408",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Mairi Juuro-Gulin",
+          "room": "408",
+          "type": "lang"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Liiklus",
+        "end": "Annela Floren"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Mairi Juuro-Gulin"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Mairi Juuro-Gulin"
+      },
+      {
+        "start": "Matem.",
+        "end": "Mairi Juuro-Gulin"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Helle Tuhkla"
+      },
+      {
+        "start": "Folklooritund",
+        "end": "Mairi Juuro-Gulin"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "4.a": {
+    "className": "4.a",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tuulikki Raudver",
+          "room": "316",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Arvutiõpetus",
+          "teacher": "Elve Tänavots",
+          "room": "205",
+          "type": "math"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Elo Üleoja",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tuulikki Raudver",
+          "room": "316",
+          "type": "eng"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "KiVa",
+          "teacher": "Hele Kuul",
+          "room": "305",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tuulikki Raudver",
+          "room": "316",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Liis Otsus",
+          "room": "309",
+          "type": "lang"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Tüdr.koor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Katrin Berggren-K",
+          "room": "323",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Matem.",
+          "teacher": "Sirle Taaksalu",
+          "room": "404",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Kl.j.t.",
+          "teacher": "Hele Kuul",
+          "room": "305",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Tüdr.koor",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Selia Selezov"
+      },
+      {
+        "start": "Matem.",
+        "end": "Sirle Taaksalu"
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Katrin Berggren-K"
+      },
+      {
+        "start": "Käsit./kod.",
+        "end": "Eve Veelaid"
+      },
+      {
+        "start": "Käsit./kod.",
+        "end": "Eve Veelaid"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "4.b": {
+    "className": "4.b",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Tiina Kippel",
+          "room": "131",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Katrin Berggren-K",
+          "room": "323",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Karin Sirgmets",
+          "room": "315",
+          "type": "eng"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Ruth Kapper",
+          "room": "405",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Kadi Inno",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Margit Kaare",
+          "room": "107",
+          "type": "lang"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "KiVa",
+          "teacher": "Karin Sirgmets",
+          "room": "315",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Matem.",
+          "teacher": "Ruth Kapper",
+          "room": "405",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Arvutiõpetus",
+          "teacher": "Elve Tänavots",
+          "room": "205",
+          "type": "math"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Selia Selezov"
+      },
+      {
+        "start": "Matem.",
+        "end": "Ruth Kapper"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Andres Veermäe"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Andres Veermäe"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Karin Sirgmets"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "4.c": {
+    "className": "4.c",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Karin Sirgmets",
+          "room": "315",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Ruth Lehtla",
+          "room": "406",
+          "type": "math"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Elo Üleoja",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Ly Heinpalu",
+          "room": "207",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Tiina Kippel",
+          "room": "131",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Karin Sirgmets",
+          "room": "315",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Ruth Lehtla",
+          "room": "406",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Ly Heinpalu",
+          "room": "207",
+          "type": "lang"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Tüdr.koor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Kadi Inno",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Karin Sirgmets",
+          "room": "315",
+          "type": "eng"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Eve Kangur",
+          "room": "216",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Ruth Lehtla",
+          "room": "406",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Tiina Kippel",
+          "room": "131",
+          "type": "empty"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Tüdr.koor",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Ly Heinpalu"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Kevin Vabaorg"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Kevin Vabaorg"
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Eve Kangur"
+      },
+      {
+        "start": "Kunst",
+        "end": "Kullake-Aleksandr"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "4.t": {
+    "className": "4.t",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Sirle Taaksalu",
+          "room": "404",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Õpiabi",
+          "teacher": "Ave Oppo",
+          "room": "313",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Sirle Taaksalu",
+          "room": "404",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Sirle Taaksalu",
+          "room": "404",
+          "type": "math"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Sirle Taaksalu",
+          "room": "404",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Tüdr.koor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Kristina Holst",
+          "room": "319",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Tiina Kippel",
+          "room": "131",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kristine Noodla",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Arvutiõpetus",
+          "teacher": "Elve Tänavots",
+          "room": "205",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Sirle Taaksalu",
+          "room": "404",
+          "type": "lang"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Tüdr.koor",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Kristine Noodla"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Kristine Noodla"
+      },
+      {
+        "start": "Matem.",
+        "end": "Sirle Taaksalu"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Sirle Taaksalu"
+      },
+      {
+        "start": "Koht. klj/KiVa",
+        "end": "Sirle Taaksalu"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "5.a": {
+    "className": "5.a",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Karmen Ottep",
+          "room": "407",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Sirle Taaksalu",
+          "room": "404",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Elo Üleoja",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Sirle Taaksalu",
+          "room": "404",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Üh.k.õp.",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "lang"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Karmen Ottep",
+          "room": "407",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Sirle Taaksalu",
+          "room": "404",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eestlaste tava",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Lastekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Katrin Berggren-K",
+          "room": "323",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Piret Steinberg",
+          "room": "204",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "empty"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Sirle Taaksalu"
+      },
+      {
+        "start": "Muus.",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Matem.",
+        "end": "Karmen Ottep"
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Katrin Berggren-K"
+      },
+      {
+        "start": "Teadmise ja os",
+        "end": "Kadri Marksoo"
+      },
+      {
+        "start": "Koht. klj/KiVa",
+        "end": "Helle Tuhkla"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "5.b": {
+    "className": "5.b",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Katrin Berggren-K",
+          "room": "323",
+          "type": "science"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Elo Üleoja",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Katrin Berggren-K",
+          "room": "323",
+          "type": "science"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Liisi Klaos",
+          "room": "222",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Ly Heinpalu",
+          "room": "304",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tuulikki Raudver",
+          "room": "316",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Eestlaste tava",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Lastekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Eesti k.",
+          "teacher": "Ly Heinpalu",
+          "room": "308",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "In.õp.",
+        "end": "Hele Kuul"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Tuulikki Raudver"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Tuulikki Raudver"
+      },
+      {
+        "start": "Matem.",
+        "end": "Kai Tingas"
+      },
+      {
+        "start": "Matem.",
+        "end": "Kai Tingas"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Ly Heinpalu"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "5.c": {
+    "className": "5.c",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Tiiu Leet",
+          "room": "307",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tiina Kärmik",
+          "room": "321",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Teadmise ja os",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Tiiu Leet",
+          "room": "307",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Koht. klj/KiVa",
+          "teacher": "Kristina Holst",
+          "room": "323",
+          "type": "empty"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Tiiu Leet",
+          "room": "307",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Kai Tingas",
+          "room": "210",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Lastekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Matem.",
+          "teacher": "Kai Tingas",
+          "room": "210",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Tiiu Leet",
+          "room": "307",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Katrin Berggren-K",
+          "room": "323",
+          "type": "science"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Matem.",
+        "end": "Kai Tingas"
+      },
+      {
+        "start": "Käsit./kod.",
+        "end": "Eve Veelaid"
+      },
+      {
+        "start": "Käsit./kod.",
+        "end": "Eve Veelaid"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Tiina Kärmik"
+      },
+      {
+        "start": "Üh.k.õp.",
+        "end": "Elle Kohal"
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Katrin Berggren-K"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "5.t": {
+    "className": "5.t",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eesti keel (E2",
+          "teacher": "Selia Selezov",
+          "room": "300",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "KiVa",
+          "teacher": "Liina Vainult",
+          "room": "207",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl. k (u)",
+          "teacher": "Kristina Holst",
+          "room": "307",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Lii Liiskmann",
+          "room": "106",
+          "type": "empty"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Erika Bauer",
+          "room": "105",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Üh.k.õp.",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Teadmise ja os",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Lii Liiskmann",
+          "room": "106",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Matem.",
+          "teacher": "Erika Bauer",
+          "room": "105",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Heili Aaremäe",
+          "room": "108",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Kevin Vabaorg"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Tiina Kärmik"
+      },
+      {
+        "start": "In.õp.",
+        "end": "Hele Kuul"
+      },
+      {
+        "start": "Matem.",
+        "end": "Erika Bauer"
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Selia Selezov"
+      },
+      {
+        "start": "Ajal.",
+        "end": "Elle Kohal"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "5.t l&otildek": {
+    "className": "5.t l&otildek",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eesti keel (v)",
+          "teacher": "Kristel Floren-Pi",
+          "room": "400",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "KiVa",
+          "teacher": "Liina Vainult",
+          "room": "207",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Eva-Maria Lutus",
+          "room": "227",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tiina Kärmik",
+          "room": "321",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Eesti keel (v)",
+          "teacher": "Kristel Floren-Pi",
+          "room": "400",
+          "type": "lang"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem (v)",
+          "teacher": "Mairi Juuro-Gulin",
+          "room": "408",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Tehnol. (LÕK)",
+          "teacher": "Leeni Turban",
+          "room": "tehn.",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Teadmise ja os",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kirj. (v)",
+          "teacher": "Kristel Floren-Pi",
+          "room": "400",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Matem (v)",
+          "teacher": "Mairi Juuro-Gulin",
+          "room": "408",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Lood.õp (v)",
+          "teacher": "Katrin Berggren-K",
+          "room": "323",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Tiina Kärmik"
+      },
+      {
+        "start": "In.õp.",
+        "end": "Hele Kuul"
+      },
+      {
+        "start": "Matem (v)",
+        "end": "Mairi Juuro-Gulin"
+      },
+      {
+        "start": "Eesti keel (v)",
+        "end": "Kristel Floren-Pi"
+      },
+      {
+        "start": "Tehnol. (LÕK)",
+        "end": "Leeni Turban"
+      },
+      {
+        "start": "Tehnol. (LÕK)",
+        "end": "Leeni Turban"
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "6.a": {
+    "className": "6.a",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Kaja Kirss",
+          "room": "401",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Liis Otsus",
+          "room": "309",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kl.j.t.",
+          "teacher": "Rando Paas",
+          "room": "209",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "In.õp.",
+          "teacher": "Hele Kuul",
+          "room": "305",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Katrin Berggren-K",
+          "room": "323",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tuulikki Raudver",
+          "room": "316",
+          "type": "eng"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Riina Rannula",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Liis Otsus",
+          "room": "309",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Tiina Kippel",
+          "room": "131",
+          "type": "empty"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ettevõtlikkuse",
+          "teacher": "Kaire Pajanen",
+          "room": "104",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Rando Paas",
+          "room": "209",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Lastekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Ajal.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Liis Otsus",
+          "room": "309",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Rando Paas",
+          "room": "209",
+          "type": "math"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Katrin Berggren-K"
+      },
+      {
+        "start": "Ajal.",
+        "end": "Kairi Järve"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Liis Otsus"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Tuulikki Raudver"
+      },
+      {
+        "start": "Matem.",
+        "end": "Rando Paas"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Andres Veermäe"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Andres Veermäe"
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "6.b": {
+    "className": "6.b",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Kai Tingas",
+          "room": "210",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tuulikki Raudver",
+          "room": "316",
+          "type": "eng"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tuulikki Raudver",
+          "room": "316",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Kai Tingas",
+          "room": "210",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Vene k. (I)",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Tiiu Leet",
+          "room": "307",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Tiiu Leet",
+          "room": "307",
+          "type": "empty"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Kai Tingas",
+          "room": "210",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tuulikki Raudver",
+          "room": "316",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Vene k. (II)",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Vene k. (I)",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Tiiu Leet",
+          "room": "307",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "empty"
+        },
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Kirj.",
+        "end": "Tiiu Leet"
+      },
+      {
+        "start": "Matem.",
+        "end": "Kai Tingas"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Tiiu Leet"
+      },
+      {
+        "start": "Ettevõtlikkuse",
+        "end": "Kaire Pajanen"
+      },
+      {
+        "start": "Muus.",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Käsit./kod.",
+        "end": "Eve Veelaid"
+      },
+      {
+        "start": "Käsit./kod.",
+        "end": "Eve Veelaid"
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "6.c": {
+    "className": "6.c",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Liisi Klaos",
+          "room": "222",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Liivi Kulli",
+          "room": "320",
+          "type": "eng"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Elo Üleoja",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Katrin Remiküll",
+          "room": "306",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Rando Paas",
+          "room": "209",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Vene k. (II)",
+          "teacher": "Lia Valdek",
+          "room": "403",
+          "type": "lang"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Katrin Remiküll",
+          "room": "306",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Koht. klj/KiVa",
+          "teacher": "Liis Kärmik",
+          "room": "322",
+          "type": "empty"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Vene k. (I)",
+          "teacher": "Lia Valdek",
+          "room": "403",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Rando Paas",
+          "room": "209",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "science"
+        },
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Kadri Marksoo"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Katrin Remiküll"
+      },
+      {
+        "start": "Matem.",
+        "end": "Rando Paas"
+      },
+      {
+        "start": "Matem.",
+        "end": "Rando Paas"
+      },
+      {
+        "start": "In.õp.",
+        "end": "Hele Kuul"
+      },
+      {
+        "start": "Ettevõtlikkuse",
+        "end": "Kaire Pajanen"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "6.d": {
+    "className": "6.d",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Kaja Kirss",
+          "room": "401",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Riina Rannula",
+          "room": "129",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k. (u)",
+          "teacher": "Kaja Kirss",
+          "room": "401",
+          "type": "lang"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Tiina Kippel",
+          "room": "131",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k. (u)",
+          "teacher": "Kaja Kirss",
+          "room": "401",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Liis Otsus",
+          "room": "309",
+          "type": "empty"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Kai Tingas",
+          "room": "210",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Ettevõtlikkuse",
+          "teacher": "Kaire Pajanen",
+          "room": "104",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Katrin Berggren-K",
+          "room": "323",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Koht. klj/KiVa",
+          "teacher": "Liis Otsus",
+          "room": "309",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Kaja Kirss",
+          "room": "401",
+          "type": "lang"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Kirj.",
+          "teacher": "Liis Otsus",
+          "room": "309",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Kai Tingas",
+          "room": "210",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Riina Rannula",
+          "room": "129",
+          "type": "empty"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Katrin Remiküll"
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Katrin Berggren-K"
+      },
+      {
+        "start": "Matem.",
+        "end": "Kai Tingas"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Karin Sirgmets"
+      },
+      {
+        "start": "Vene k. (u)",
+        "end": "Kaja Kirss"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Andres Veermäe"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Andres Veermäe"
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "6.e": {
+    "className": "6.e",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Liisi Klaos",
+          "room": "222",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Liivi Kulli",
+          "room": "320",
+          "type": "eng"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Katrin Remiküll",
+          "room": "306",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Ly Heinpalu",
+          "room": "413",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Vene k. (II)",
+          "teacher": "Lia Valdek",
+          "room": "403",
+          "type": "lang"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Ursula Einmann",
+          "room": "308",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Koht. klj/KiVa",
+          "teacher": "Liis Kärmik",
+          "room": "322",
+          "type": "empty"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Vene k. (I)",
+          "teacher": "Lia Valdek",
+          "room": "403",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Ly Heinpalu",
+          "room": "413",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "science"
+        },
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Kadri Marksoo"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Ursula Einmann"
+      },
+      {
+        "start": "Matem.",
+        "end": "Ly Heinpalu"
+      },
+      {
+        "start": "Matem.",
+        "end": "Ly Heinpalu"
+      },
+      {
+        "start": "In.õp.",
+        "end": "Hele Kuul"
+      },
+      {
+        "start": "Ettevõtlikkuse",
+        "end": "Kaire Pajanen"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "6.k": {
+    "className": "6.k",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Tehnol.õp.",
+          "teacher": "Ülle Kõrre",
+          "room": "tehn.",
+          "type": "science"
+        },
+        null,
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Merje Sirelpuu",
+          "room": "sots.",
+          "type": "empty"
+        },
+        null,
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Merje Sirelpuu",
+          "room": "sots.",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Kristina Holst",
+          "room": "sots.",
+          "type": "eng"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Merje Sirelpuu",
+          "room": "sots.",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Merje Sirelpuu",
+          "room": "sots.",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Eesti k.",
+          "teacher": "Merje Sirelpuu",
+          "room": "sots.",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Tehnol.õp.",
+          "teacher": "Ülle Kõrre",
+          "room": "tehn.",
+          "type": "science"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Merje Sirelpuu"
+      },
+      {
+        "start": "Matem.",
+        "end": "Merje Sirelpuu"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Kristina Holst"
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Merje Sirelpuu"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "7.a": {
+    "className": "7.a",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Matem-3",
+          "teacher": "Rando Paas",
+          "room": "209",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Koht. klj/KiVa",
+          "teacher": "Sigrid Tiikjärv",
+          "room": "303",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Elo Üleoja",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem-1",
+          "teacher": "Helen Uussaar",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tuulikki Raudver",
+          "room": "316",
+          "type": "eng"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem-1",
+          "teacher": "Helen Uussaar",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Lastekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Muus.",
+          "teacher": "Liisi Klaos",
+          "room": "222",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Geogr.",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tuulikki Raudver",
+          "room": "316",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Loovtöö",
+          "teacher": "Sigrid Tiikjärv",
+          "room": "303",
+          "type": "empty"
+        },
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Käsit./kod.",
+        "end": "Eve Veelaid"
+      },
+      {
+        "start": "Käsit./kod.",
+        "end": "Eve Veelaid"
+      },
+      {
+        "start": "Matem-3",
+        "end": "Rando Paas"
+      },
+      {
+        "start": "Geogr.",
+        "end": "Kadri Marksoo"
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Ursula Einmann"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Kevin Vabaorg"
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Ursula Einmann"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "7.b": {
+    "className": "7.b",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Matem-3",
+          "teacher": "Rando Paas",
+          "room": "209",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Koht. klj/KiVa",
+          "teacher": "Kristine Noodla",
+          "room": "306",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Biol.",
+          "teacher": "Tiina Sirelpuu",
+          "room": "214",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Geogr.",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Elo Üleoja",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Eve Kangur",
+          "room": "216",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Matem-1",
+          "teacher": "Helen Uussaar",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Matem-1",
+          "teacher": "Helen Uussaar",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Lastekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Eve Kangur",
+          "room": "216",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tiina Kärmik",
+          "room": "321",
+          "type": "eng"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Muus.",
+        "end": "Liisi Klaos"
+      },
+      {
+        "start": "Matem-3",
+        "end": "Rando Paas"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Tiina Kärmik"
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Ursula Einmann"
+      },
+      {
+        "start": "Ajal.",
+        "end": "Kairi Järve"
+      },
+      {
+        "start": "Eesti keel (E2",
+        "end": "Ursula Einmann"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "7.c": {
+    "className": "7.c",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Matem-3",
+          "teacher": "Rando Paas",
+          "room": "209",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Eve Kangur",
+          "room": "216",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem-1",
+          "teacher": "Helen Uussaar",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Biol.",
+          "teacher": "Tiina Sirelpuu",
+          "room": "214",
+          "type": "empty"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem-1",
+          "teacher": "Helen Uussaar",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Geogr.",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Karin Sirgmets",
+          "room": "315",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Liisi Klaos",
+          "room": "222",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "In.õp.",
+          "teacher": "Hele Kuul",
+          "room": "305",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Eesti keel (v)",
+        "end": "Katrin Remiküll"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Karin Sirgmets"
+      },
+      {
+        "start": "Matem-3",
+        "end": "Rando Paas"
+      },
+      {
+        "start": "Vene k.",
+        "end": "Annika Kasikov"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Katrin Remiküll"
+      },
+      {
+        "start": "Koht. klj/KiVa",
+        "end": "Katrin Remiküll"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Katrin Remiküll"
+      },
+      {
+        "start": "Loovtöö",
+        "end": "Katrin Remiküll"
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "7.j": {
+    "className": "7.j",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Liina Vainult",
+          "room": "314",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Loodusõp/inim.",
+          "teacher": "Liina Vainult",
+          "room": "314",
+          "type": "science"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Liina Vainult",
+          "room": "314",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Liina Vainult",
+          "room": "314",
+          "type": "lang"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Liina Vainult",
+          "room": "314",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Geogr.",
+          "teacher": "Liina Vainult",
+          "room": "314",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Liina Vainult",
+          "room": "314",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Geogr.",
+          "teacher": "Liina Vainult",
+          "room": "314",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Biol.",
+          "teacher": "Liina Vainult",
+          "room": "314",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Liina Vainult",
+          "room": "314",
+          "type": "empty"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Liina Vainult"
+      },
+      {
+        "start": "Matem.",
+        "end": "Liina Vainult"
+      },
+      {
+        "start": "Vene k.",
+        "end": "Liina Vainult"
+      },
+      {
+        "start": "Loovaine",
+        "end": "Liina Vainult"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "7.s": {
+    "className": "7.s",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Helen Konar",
+          "room": "412",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Biol.",
+          "teacher": "Helen Konar",
+          "room": "412",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Helen Konar",
+          "room": "412",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Helen Konar",
+          "room": "412",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Saksa k.",
+          "teacher": "Liivi Kulli",
+          "room": "320",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem-4(v)",
+          "teacher": "Helen Konar",
+          "room": "412",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem-4(v)",
+          "teacher": "Helen Konar",
+          "room": "412",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Geogr.",
+          "teacher": "Helen Konar",
+          "room": "412",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Ingl. k (v)",
+          "teacher": "Kristina Holst",
+          "room": "412",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "In.õp.",
+          "teacher": "Helen Konar",
+          "room": "412",
+          "type": "science"
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Helen Konar"
+      },
+      {
+        "start": "Matem.",
+        "end": "Helen Konar"
+      },
+      {
+        "start": "Geogr.",
+        "end": "Helen Konar"
+      },
+      {
+        "start": "Ingl. k (v)",
+        "end": "Kristina Holst"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "7.t": {
+    "className": "7.t",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Tiiu Ehasalu",
+          "room": "319",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Elo Üleoja",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Argo Kongi",
+          "room": "319",
+          "type": "eng"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Poistekoor",
+          "teacher": "Liisi Klaos",
+          "room": "aula",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Tiiu Ehasalu",
+          "room": "209",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "In.õp.",
+          "teacher": "Hele Kuul",
+          "room": "305",
+          "type": "science"
+        },
+        null,
+        {
+          "subject": "Lood.õp.",
+          "teacher": "Eve Kangur",
+          "room": "216",
+          "type": "science"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Biol.",
+          "teacher": "Tiina Sirelpuu",
+          "room": "214",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Annika Kasikov",
+          "room": "402",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Koht. klj/KiVa",
+          "teacher": "Tiiu Ehasalu",
+          "room": "210",
+          "type": "empty"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Geogr.",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Argo Kongi",
+          "room": "319",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Liisi Klaos",
+          "room": "222",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Eve Veelaid",
+          "room": "126",
+          "type": "empty"
+        },
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Lood.õp.",
+        "end": "Eve Kangur"
+      },
+      {
+        "start": "Matem.",
+        "end": "Tiiu Ehasalu"
+      },
+      {
+        "start": "Ajal.",
+        "end": "Kairi Järve"
+      },
+      {
+        "start": "Keh.k.",
+        "end": "Kevin Vabaorg"
+      },
+      {
+        "start": "Kirj.",
+        "end": "Ly Heinpalu"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Argo Kongi"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "8.b": {
+    "className": "8.b",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Tiiu Leet",
+          "room": "307",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Üh.k.õp.",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "lang"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Karin Sirgmets",
+          "room": "315",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Keemia",
+          "teacher": "Kadi Inno",
+          "room": "220",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Biol.",
+          "teacher": "Tiina Sirelpuu",
+          "room": "214",
+          "type": "empty"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keemia",
+          "teacher": "Kadi Inno",
+          "room": "220",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "In.õp.",
+          "teacher": "Hele Kuul",
+          "room": "305",
+          "type": "science"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Kadi Inno",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Saksa k.",
+          "teacher": "Piret Steinberg",
+          "room": "204",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Liivo Raudver",
+          "room": "208",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Loovtöö",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Eesti k.",
+          "teacher": "Tiiu Leet",
+          "room": "307",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Karin Sirgmets",
+          "room": "315",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Saksa k.",
+          "teacher": "Piret Steinberg",
+          "room": "204",
+          "type": "lang"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Matem.",
+        "end": "Liivo Raudver"
+      },
+      {
+        "start": "Koht. klj/KiVa",
+        "end": "Kadri Marksoo"
+      },
+      {
+        "start": "Biol.",
+        "end": "Tiina Sirelpuu"
+      },
+      {
+        "start": "Kunst",
+        "end": "Kullake-Aleksandr"
+      },
+      {
+        "start": "Kirj.",
+        "end": "Tiiu Leet"
+      },
+      {
+        "start": "Füüs.",
+        "end": "Eve Kangur"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "8.c": {
+    "className": "8.c",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Keemia",
+          "teacher": "Kadi Inno",
+          "room": "220",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Liivo Raudver",
+          "room": "208",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Geogr.",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Katrin Remiküll",
+          "room": "306",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Kadi Inno",
+          "room": "126",
+          "type": "empty"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Liivo Raudver",
+          "room": "208",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Ursula Einmann",
+          "room": "308",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tiina Kärmik",
+          "room": "321",
+          "type": "eng"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Saksa k.",
+          "teacher": "Piret Steinberg",
+          "room": "204",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Füüs.",
+          "teacher": "Eve Kangur",
+          "room": "216",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "empty"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Keemia",
+          "teacher": "Kadi Inno",
+          "room": "220",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Katrin Remiküll",
+          "room": "306",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Saksa k.",
+          "teacher": "Piret Steinberg",
+          "room": "204",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Kevin Vabaorg",
+          "room": "",
+          "type": "lang"
+        },
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Loovtöö",
+        "end": "Piret Steinberg"
+      },
+      {
+        "start": "Ajal.",
+        "end": "Elle Kohal"
+      },
+      {
+        "start": "Füüs.",
+        "end": "Eve Kangur"
+      },
+      {
+        "start": "Üh.k.õp.",
+        "end": "Elle Kohal"
+      },
+      {
+        "start": "Matem.",
+        "end": "Liivo Raudver"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Tiina Kärmik"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "8.t": {
+    "className": "8.t",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Biol.",
+          "teacher": "Tiina Sirelpuu",
+          "room": "214",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Helen Uussaar",
+          "room": "",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tiina Kärmik",
+          "room": "321",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Füüs.",
+          "teacher": "Eve Kangur",
+          "room": "216",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Kadi Inno",
+          "room": "126",
+          "type": "empty"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tiina Kärmik",
+          "room": "321",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "empty"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Ly Heinpalu",
+          "room": "413",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Ly Heinpalu",
+          "room": "413",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Loovtöö",
+          "teacher": "Ly Heinpalu",
+          "room": "413",
+          "type": "empty"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Üh.k.õp.",
+          "teacher": "Elle Kohal",
+          "room": "302",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Kaja Kirss",
+          "room": "401",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Ly Heinpalu",
+          "room": "413",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Matem.",
+        "end": "Helen Uussaar"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Ly Heinpalu"
+      },
+      {
+        "start": "Ajal.",
+        "end": "Elle Kohal"
+      },
+      {
+        "start": "Ingl. k (v)",
+        "end": "Kristina Holst"
+      },
+      {
+        "start": "Keemia",
+        "end": "Kadi Inno"
+      },
+      {
+        "start": "Geogr.",
+        "end": "Kadri Marksoo"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "9.a": {
+    "className": "9.a",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Üh.k.õp.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Koht. klj/KiVa",
+          "teacher": "Argo Kongi",
+          "room": "319",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Saksa k.",
+          "teacher": "Liivi Kulli",
+          "room": "320",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Rando Paas",
+          "room": "209",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Ursula Einmann",
+          "room": "308",
+          "type": "empty"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Argo Kongi",
+          "room": "319",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Saksa k.",
+          "teacher": "Liivi Kulli",
+          "room": "320",
+          "type": "lang"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Geogr.",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Ursula Einmann",
+          "room": "308",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kunst",
+          "teacher": "Kullake-Aleksandr",
+          "room": "202",
+          "type": "art"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Matem.",
+          "teacher": "Rando Paas",
+          "room": "209",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Lia Valdek",
+          "room": "403",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Füüs.",
+          "teacher": "Eve Kangur",
+          "room": "216",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Argo Kongi",
+          "room": "319",
+          "type": "eng"
+        },
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Vene k.",
+        "end": "Lia Valdek"
+      },
+      {
+        "start": "Vene k.",
+        "end": "Lia Valdek"
+      },
+      {
+        "start": "Keemia",
+        "end": "Kadi Inno"
+      },
+      {
+        "start": "Keemia",
+        "end": "Kadi Inno"
+      },
+      {
+        "start": "Kirj.",
+        "end": "Ursula Einmann"
+      },
+      {
+        "start": "Matem.",
+        "end": "Rando Paas"
+      },
+      {
+        "start": "Geogr.",
+        "end": "Kadri Marksoo"
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "9.b": {
+    "className": "9.b",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tiina Kärmik",
+          "room": "321",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Füüs.",
+          "teacher": "Eve Kangur",
+          "room": "216",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Lia Valdek",
+          "room": "403",
+          "type": "lang"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Saksa k.",
+          "teacher": "Liivi Kulli",
+          "room": "320",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Sigrid Tiikjärv",
+          "room": "",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Ursula Einmann",
+          "room": "308",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Koht. klj/KiVa",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Tiina Kärmik",
+          "room": "321",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Karj.n.",
+          "teacher": "Triin Pajo",
+          "room": "401",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Saksa k.",
+          "teacher": "Liivi Kulli",
+          "room": "320",
+          "type": "lang"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Ursula Einmann",
+          "room": "308",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Liisi Klaos",
+          "room": "222",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Biol.",
+          "teacher": "Tiina Sirelpuu",
+          "room": "214",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Liivo Raudver",
+          "room": "208",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Liivo Raudver",
+          "room": "208",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Vene k.",
+          "teacher": "Lia Valdek",
+          "room": "403",
+          "type": "lang"
+        },
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Keemia",
+        "end": "Kadi Inno"
+      },
+      {
+        "start": "Keemia",
+        "end": "Kadi Inno"
+      },
+      {
+        "start": "Kirj.",
+        "end": "Ursula Einmann"
+      },
+      {
+        "start": "Geogr.",
+        "end": "Kadri Marksoo"
+      },
+      {
+        "start": "Biol.",
+        "end": "Tiina Sirelpuu"
+      },
+      {
+        "start": "Kunst",
+        "end": "Kullake-Aleksandr"
+      },
+      {
+        "start": "Füüs.",
+        "end": "Eve Kangur"
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "9.c": {
+    "className": "9.c",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Liis Otsus",
+          "room": "309",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Geogr.",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Muus.",
+          "teacher": "Tiina Kippel",
+          "room": "131",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Saksa k.",
+          "teacher": "Liivi Kulli",
+          "room": "320",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Liivo Raudver",
+          "room": "208",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Geogr.",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Keh.k.",
+          "teacher": "Andres Veermäe",
+          "room": "",
+          "type": "lang"
+        },
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Karj.n.",
+          "teacher": "Triin Pajo",
+          "room": "401",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Karin Sirgmets",
+          "room": "315",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Saksa k.",
+          "teacher": "Liivi Kulli",
+          "room": "320",
+          "type": "lang"
+        },
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Kirj.",
+          "teacher": "Liis Otsus",
+          "room": "309",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Biol.",
+          "teacher": "Tiina Sirelpuu",
+          "room": "214",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Koht. klj/KiVa",
+          "teacher": "Annela Floren",
+          "room": "220",
+          "type": "empty"
+        },
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Matem.",
+          "teacher": "Liivo Raudver",
+          "room": "208",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Keemia",
+          "teacher": "Kadi Inno",
+          "room": "220",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "Üh.k.õp.",
+        "end": "Kairi Järve"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Karin Sirgmets"
+      },
+      {
+        "start": "Matem.",
+        "end": "Liivo Raudver"
+      },
+      {
+        "start": "Matem.",
+        "end": "Liivo Raudver"
+      },
+      {
+        "start": "Füüs.",
+        "end": "Eve Kangur"
+      },
+      {
+        "start": "Ajal.",
+        "end": "Kairi Järve"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  "9.e": {
+    "className": "9.e",
+    "schedule": {
+      "0": [
+        null,
+        {
+          "subject": "Geogr.",
+          "teacher": "Kadri Marksoo",
+          "room": "304",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Hele Kuul",
+          "room": "305",
+          "type": "eng"
+        },
+        null,
+        {
+          "subject": "Füüs.",
+          "teacher": "Eve Kangur",
+          "room": "216",
+          "type": "empty"
+        },
+        null
+      ],
+      "1": [
+        {
+          "subject": "Esmaspäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ajal.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Ingl.k.",
+          "teacher": "Hele Kuul",
+          "room": "305",
+          "type": "eng"
+        },
+        null,
+        null
+      ],
+      "2": [
+        {
+          "subject": "Teisipäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Helen Uussaar",
+          "room": "",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Koht. klj/KiVa",
+          "teacher": "Kaie Kender",
+          "room": "220",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "3": [
+        {
+          "subject": "Kolmapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        null,
+        {
+          "subject": "Eesti k.",
+          "teacher": "Kaie Kender",
+          "room": "220",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Käsit./kod.",
+          "teacher": "Kadi Inno",
+          "room": "126",
+          "type": "empty"
+        },
+        null,
+        null
+      ],
+      "4": [
+        {
+          "subject": "Neljapäev",
+          "teacher": "",
+          "room": "",
+          "type": "empty"
+        },
+        {
+          "subject": "Matem.",
+          "teacher": "Helen Uussaar",
+          "room": "",
+          "type": "math"
+        },
+        null,
+        {
+          "subject": "Üh.k.õp.",
+          "teacher": "Kairi Järve",
+          "room": "303",
+          "type": "lang"
+        },
+        null,
+        {
+          "subject": "Matem.",
+          "teacher": "Helen Uussaar",
+          "room": "",
+          "type": "math"
+        },
+        null,
+        null
+      ]
+    },
+    "times": [
+      {
+        "start": "Tugitund",
+        "end": "Kaie Kender"
+      },
+      {
+        "start": "Eesti k.",
+        "end": "Kaie Kender"
+      },
+      {
+        "start": "Ingl.k.",
+        "end": "Hele Kuul"
+      },
+      {
+        "start": "Matem.",
+        "end": "Helen Uussaar"
+      },
+      {
+        "start": "Biol.",
+        "end": "Tiina Sirelpuu"
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      },
+      {
+        "start": "",
+        "end": ""
+      }
+    ]
+  }
+}
