@@ -10596,10 +10596,10 @@ window.TIMETABLE_DATA = {
         "0": [],
         "1": [
           {
-            "subject": "Ingl. k (v)",
-            "teacher": "Kristina Holst",
+            "subject": "Biol.",
+            "teacher": "Helen Konar",
             "room": "412",
-            "type": "general"
+            "type": "science"
           }
         ],
         "2": [
@@ -10618,14 +10618,7 @@ window.TIMETABLE_DATA = {
             "type": "general"
           }
         ],
-        "4": [
-          {
-            "subject": "Biol.",
-            "teacher": "Helen Konar",
-            "room": "412",
-            "type": "science"
-          }
-        ],
+        "4": [],
         "5": [],
         "6": [],
         "7": [],
@@ -10665,14 +10658,7 @@ window.TIMETABLE_DATA = {
             "type": "general"
           }
         ],
-        "5": [
-          {
-            "subject": "Tugitund",
-            "teacher": "Annela Floren",
-            "room": "412",
-            "type": "general"
-          }
-        ],
+        "5": [],
         "6": [],
         "7": [],
         "8": []
@@ -10750,8 +10736,22 @@ window.TIMETABLE_DATA = {
             "type": "science"
           }
         ],
-        "5": [],
-        "6": [],
+        "5": [
+          {
+            "subject": "Tugitund",
+            "teacher": "Annela Floren",
+            "room": "412",
+            "type": "general"
+          }
+        ],
+        "6": [
+          {
+            "subject": "Ingl. k (v)",
+            "teacher": "Kristina Holst",
+            "room": "412",
+            "type": "general"
+          }
+        ],
         "7": [],
         "8": []
       }
@@ -11008,7 +11008,7 @@ window.TIMETABLE_DATA = {
           {
             "subject": "Matem.",
             "teacher": "Tiiu Ehasalu",
-            "room": "209",
+            "room": "403",
             "type": "math"
           }
         ],
@@ -11929,7 +11929,14 @@ window.TIMETABLE_DATA = {
             "type": "science"
           }
         ],
-        "7": [],
+        "7": [
+          {
+            "subject": "Loovtöö",
+            "teacher": "Ly Heinpalu",
+            "room": "413",
+            "type": "general"
+          }
+        ],
         "8": []
       },
       {
@@ -11939,12 +11946,6 @@ window.TIMETABLE_DATA = {
             "subject": "Üh.k.õp.",
             "teacher": "Elle Kohal",
             "room": "302",
-            "type": "general"
-          },
-          {
-            "subject": "Ingl. k (v)",
-            "teacher": "Kristina Holst",
-            "room": "412",
             "type": "general"
           }
         ],
@@ -12228,9 +12229,9 @@ window.TIMETABLE_DATA = {
         ],
         "6": [
           {
-            "subject": "Loovtöö",
-            "teacher": "Ly Heinpalu",
-            "room": "413",
+            "subject": "Ingl. k (v)",
+            "teacher": "Kristina Holst",
+            "room": "412",
             "type": "general"
           }
         ],
